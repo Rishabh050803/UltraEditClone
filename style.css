@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    justify-content: flex-end;
+    gap: 25px;
+    transform: translateX(-4px);
+}
+
+nav ul li {
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(37, 37, 37);
+    font-family: 'Open Sans', sans-serif;
+}
+
+li:hover{
+    color: grey ;
+    cursor: pointer;
+}
+.home_logo {
+    top: 0px;
+    width: auto;
+    height: 105px;
+    transform: translateX(100px);
+}
+
+li img {
+    width: auto;
+    height: 18px;
+}
+
+.downloadBox {
+    background-color: white;
+    margin: 10px 0px;
+    height: auto; /* Set height to auto to expand with content */
+}
+
+.heading {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    gap: 15px;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.downloadBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloadBox img {
+    transform: translateY(22px);
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center; /* Center align text */
+    padding: 0 20px; /* Add padding to ensure the text doesn't touch edges */
+    background-color: white;
+}
+
+.download {
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 13px 25px;
+    margin-top: 28px;
+    background-color: #00b6d1;
+    border: 1px solid #00b6d1;
+    border-radius: 5px;
+    color: white;
+}
+
+.download:hover{
+    background-color:#66bbc8 ;
+    color: rgb(232, 232, 232);
+    cursor: pointer;
+}
+
+.release {
+    display: flex;
+
+    background-color: white;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    bottom: 20px;
+    height: 120px; /* Set the height to 300px */
+    /* width: 100%; Ensure it takes full width */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(-220px) translateY(-20px);
+    
+}
+
+.release img{
+    height: 55px;
+}
+
+.options_Box{
+    display: grid;
+    width: 62vw;
+    height: 125vh;
+    grid-template-columns:repeat(3,  1fr) ;
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    column-gap: 25px;
+    row-gap: 25px;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+   margin: 40px 17vw;
+}
+
+.items{
+    background-color: rgb(243, 242, 242);
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.lang_content{
+    font-size: 23px;
+    margin: -10px;
+    font-weight: bold;
+}
+
+.lang{
+    margin: 15px;
+    font-size: 13px;
+}
+.lang_button{
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.lang_button:hover{
+    background-color:#84cd84 ;
+    cursor: pointer;
+
+}
+
+.info2{
+    background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sign_up{
+    color: white;
+    width: 35%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sign_upbox{
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 260px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.email input{
+    height: 40px;
+    width: 95%;
+    margin-top: -15px;   
+}
+
+.sign_upButton{
+    background-color: rgb(17, 148, 241);
+    width: 95%;
+    height: 37px;
+    border: 0px;
+    border-radius: 5px;
+    transform: translateX(6px);
+    color: white;
+    font-weight: bold;
+}
+
+.sign_upButton:hover{
+    background-color: rgb(7, 65, 106);
+    cursor: pointer;
+}
+.otherBox{
+    background-color: #222;
+    color: white;
+    display: flex;
+    width: 82vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle{
+    font-size: 27px;
+    margin-top: 19px;
+    margin-bottom: 5px;
+    transform: translateX(18%);
+}
+
+.subinfo{
+    padding: 0 0 5px 0;
+    transform: translateX(18%);
+}
+
+footer{
+    padding: 5px 0px;
+    background-color: #595353;
+    text-align: center;
+}
